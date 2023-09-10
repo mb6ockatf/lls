@@ -22,3 +22,6 @@ debug:
 
 clean:
 	rm a.o *.out
+
+docs:
+	pdflatex README.tex
