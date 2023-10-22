@@ -1,0 +1,13 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Вступление}{4}{}%
+\contentsline {section}{\numberline {2}Концепция низкоуровнего программирования}{5}{}%
+\contentsline {subsection}{\numberline {2.1}История}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Современность}{5}{}%
+\contentsline {section}{\numberline {3}Особенности языка Ассемблера}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Команды}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Процесс сборки исполняемого файла}{5}{}%
+\contentsline {section}{\numberline {4}Отчёт о работе над продуктом}{5}{}%
+\contentsline {section}{\numberline {5}Вывод}{6}{}%
+\contentsline {section}{\numberline {6}Список литературы}{7}{}%
+\contentsline {section}{\numberline {7}Приложения}{8}{}%
+\contentsline {subsection}{\numberline {7.1}Глоссарий}{8}{}%
