@@ -2,13 +2,18 @@
 
 target_file?=main.asm
 
+build: build_x32
+
+run:
+	./main.out
+
 build_x32:
-	nasm -f elf -o a.o $(target_file)
-	ld -V -m elf_i386 -o a.out a.o
+	nasm -f elf $(target_file)  -o main.o # output main.o
+	ld -V -m elf_i386 -o main.out main.o  # input main.o, output main.out
 
 build_x64:
-	nasm -f elf64 -o a.o $(target_file)
-	ld -V -o a.out a.o
+	nasm -f elf64 $(target_file)  # output main.o
+	ld -V -o main.out main.o  # input main.o, output main.out
 
 format:
 ifeq (,$(wildcard ./formatter.out))
@@ -18,10 +23,11 @@ endif
 	./formatter.out -ii 16 -ci 48 $(target_file)
 
 debug:
-	gdb a.out -x debug.gdb
+	gdb main.out -x debug.gdb
 
 clean:
-	rm a.o *.out
+	rm *.o *.out
 
 docs:
 	pdflatex README.tex
+
