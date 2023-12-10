@@ -1,33 +1,29 @@
 #!/usr/bin/make -f
+SHELL=/bin/sh
+cc = gcc
+cc_standard = -std=c17
+cc_optimization = -Ofast -march=native
+cc_warnings = -Werror -Wall -Wextra -Wpedantic -Wshadow -Wconversion \
+	-pedantic-errors -Wmissing-prototypes -Wmissing-prototypes \
+	-Wstrict-prototypes -Wold-style-definition -O3 -g
+cc_link = -lgmp
+target_file?=main.c
 
-target_file?=main.asm
-
-build: build_x32
+main: $(target_file)
+	${cc} ${cc_standard} ${cc_optimization} ${cc_warnings} $^ -o $@ ${cc_link}
 
 run:
-	./main.out
-
-build_x32:
-	nasm -f elf $(target_file)  -o main.o # output main.o
-	ld -V -m elf_i386 -o main.out main.o  # input main.o, output main.out
-
-build_x64:
-	nasm -f elf64 $(target_file)  # output main.o
-	ld -V -o main.out main.o  # input main.o, output main.out
-
-format:
-ifeq (,$(wildcard ./formatter.out))
-	go build formatter.go
-	mv formatter formatter.out
-endif
-	./formatter.out -ii 16 -ci 48 $(target_file)
-
-debug:
-	gdb main.out -x debug.gdb
+	./main
 
 clean:
 	rm *.o *.out
 
+scheme:
+	d2 -l elk --pad 0 --scale 0.7 ./compilation.d2 compilation.svg
+
 docs:
 	pdflatex README.tex
-
+astyle:
+	astyle -rv --style=linux --indent=force-tab=4 --delete-empty-lines \
+	--break-closing-braces --max-code-length=80 --lineend=linux --ascii \
+	"*.c"
