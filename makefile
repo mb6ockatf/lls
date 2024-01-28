@@ -28,3 +28,7 @@ astyle:
 	astyle -rv --style=linux --indent=force-tab=4 --delete-empty-lines \
 	--break-closing-braces --max-code-length=80 --lineend=linux --ascii \
 	"*.c"
+
+build_x32:
+	nasm -f elf -o a.o $(target_file)
+	ld -V -m elf_i386 -o a.out a.o

@@ -13,14 +13,12 @@ SYS_CLOSE               equ 6
 SYS_STDOUT              equ 1   ; to EBX
 ZERO_EXIT_CODE          equ 0   ; to EBX
 ; filename to read goes to ebx, too
-; 
+;
 
 section .data
         nullstr         db '(null)',0
         abobastr        dd 'aboba',0
         fmt             db "%s",10,0
-
-section .text
 
 global main
 main:

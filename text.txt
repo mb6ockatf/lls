@@ -1,0 +1,7 @@
+a
+planet
+bench
+cucumber
+plum
+tomato
+tree
