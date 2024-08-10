@@ -1,0 +1,95 @@
+commit 966638291372cbaf908faf92592d87695ec2f681
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Sat Aug 10 16:06:56 2024 +0300
+
+    chore(CONTRIBUTING): added
+
+commit dcd160e11f85de95074a9d6c3933a27e296f2d9f
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Fri Aug 9 20:49:58 2024 +0300
+
+    chore(COPYING): AGPL
+
+commit 6a9a15905c5642294e856b798c0a7fa1c070d19b
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Tue Jul 16 20:22:37 2024 +0300
+
+    chore(vscode): rmdir
+
+commit eb6f7636614d37f85aab0d46946c4f586f0539fd
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Thu May 9 15:26:27 2024 +0300
+
+    docs: md -> textile
+
+commit 8ff223d4275b831edb0f164f0233023776d9319e
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Sun Jan 28 19:49:20 2024 +0300
+
+    docs: README.md
+
+commit 4015ba5a411331f73017008149e3bf3306982d0a
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Sun Jan 28 19:34:29 2024 +0300
+
+    feat: test files
+
+commit 101cf06dab3b047dbdce00f3ad3988798692bcc2
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Mon Dec 11 00:13:40 2023 +0300
+
+    fix: rewrite in
+
+commit b3bd57d5254cf834895c700c747c2b127f11d20e
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Mon Dec 11 00:11:45 2023 +0300
+
+    feat: add D2 schemes
+
+commit 4ec65d2ae52c85cdc838067176a9226e55f4209d
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Tue Oct 24 13:52:21 2023 +0300
+
+    fix: wrote some stuff...
+
+commit 41d1c4772905efede4ca61d23e241d679942461f
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Tue Oct 24 09:33:43 2023 +0300
+
+    chore: add .gitignore file
+
+commit 4b32bf436da684bd5b0c170350c9f45db72661ee
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Sun Oct 22 19:59:30 2023 +0300
+
+    feat(docx format): created
+
+commit 88befa6bd2d29b421638dd8102db4c47bd4381fe
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Sun Oct 15 17:05:18 2023 +0300
+
+    feat(project text): more plan points
+
+commit bf56d06f242ca7bc5186ea9fb7ff2f8793be1456
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Sat Oct 14 20:38:57 2023 +0300
+
+    feat(project text): introduction
+
+commit 33c8005fa1181e87e1c2fba3ebd45e3e424380df
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Sun Sep 10 13:43:20 2023 +0300
+
+    docs: text structure, glossary
+
+commit 28b3c3abea00dd5a815ae302493a7c758b2604c1
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Sun Sep 10 11:20:05 2023 +0300
+
+    feat: initial commit
+
+commit 040726e84515a16f5a3f1a56d72a222788056ff8
+Author: mb6ockatf <mdddmmmm@yandex.ru>
+Date:   Sun Sep 10 11:16:22 2023 +0300
+
+    Initial commit
